@@ -1,0 +1,33 @@
+{
+  "name": "fastify-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc-node": "tsc-node server.ts",
+    "start": "node ./dist/server.js",
+    "dev": "nodemon server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/secure-session": "^7.1.0",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.0",
+    "fastify": "^4.25.2",
+    "fastify-cookie": "^5.7.0",
+    "fastify-secure-session": "^3.2.0",
+    "ts-node": "^10.9.2",
+    "tsc": "^2.0.4",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "install": "^0.13.0",
+    "kysely": "^0.27.2",
+    "kysely-codegen": "^0.11.0",
+    "mysql2": "^3.8.0",
+    "npm": "^10.3.0"
+  }
+}
